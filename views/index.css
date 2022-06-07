@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#navbar{
+    background-color: rgb(13 13 13 / 92%);
+    padding: 13px 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 55px;
+    color: rgb(255, 255, 255);
+}
+#navbar li a:hover{
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+#navbar li{
+    list-style: none;
+}
+
+
+/* Intro Section */
+
+#intro{
+    color: whitesmoke;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 568px;
+    /* background-color: red; */
+    background:  linear-gradient(rgba(0,0,0,0.5),#000000c4),center / cover no-repeat url("../static/introbackground.jpg");
+}
+#intro h1{
+    font-size: 4rem;
+    position: relative;
+    bottom: 200px;
+    /* left: 375px; */
+}
+#intro p{
+    /* font-size: 4rem; */
+    position: relative;
+    bottom: 200px;
+    /* left: 375px; */
+}
+#intro p:hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+
+/* Our Mission Section  */
+
+#mission{
+    background-color: rgb(13 13 13 / 14%);
+    height: 326px;
+}
+#mission h2{
+    text-align: center;
+    padding-top: 23px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 17px;
+    height: 200px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+}
+
+/* Sponsor Section */
+
+#sponsor{
+    height: 300px;
+    background-color: yellow;
+}
+#sponsor h2{
+    text-align: center;
+    padding-top: 23px;
+}
+#footer{
+    height: 100px;
+    background-color: #000;
+}
